@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    margin: 0;
+}
+
+.ctn {
+    font-family: sans-serif;
+}
+
+.ctn-inside {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 img {
+    width: 110px;
+    height: 25px;
+}
+
+.head1 ul {
+    padding: 0;
+}
+
+.head1 ul li {
+    display: inline;
+    list-style: none;
+}
+
+.head1 ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.head1 ul li a:hover,
+.head2 a:hover {
+    text-decoration: underline;
+}
+
+.head2 {
+    display: flex;
+    align-items: center;
+}
+
+.head2 span {
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+}
+
+.head2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.icons i {
+    color: #666;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.icons i:hover {
+    cursor: pointer;
+}
+
+
+.icons .fa-user-circle {
+    font-size: 24px;
+}
