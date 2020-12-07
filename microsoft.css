@@ -18,11 +18,16 @@ ul {
     margin: 0 auto;
 }
 
-.header {
+.header,
+.head-hide {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px 0;
+}
+
+.header0 {
+    display: none;
 }
 
 .head1 {
@@ -31,7 +36,8 @@ ul {
     align-items: center;
 }
 
-.head1 img {
+.head1 img,
+.head-hide img {
     width: 110px;
     height: 25px;
 }
@@ -76,15 +82,50 @@ ul {
 
 .icons i {
     color: #666;
-    padding-left: 20px;
+    padding-left:20px ;
     font-size: 17px;
 }
 
-.icons i:hover {
+.head-hide1 i {
+    color: #666;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.icons i:hover,
+.head-hide1:hover {
     cursor: pointer;
 }
 
 
 .icons .fa-user-circle {
     font-size: 24px;
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .ctn-inside {
+        width: 100%;
+    }
+
+    .header {
+        padding: 14px 20px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+   #hide {
+       display: none;
+   } 
+}
+
+@media only screen and (max-width:860px) {
+    .header {
+        display: none;
+    }
+
+    .header0 {
+        display: unset;
+    }
 }
