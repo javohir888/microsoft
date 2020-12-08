@@ -232,18 +232,23 @@ li {
 
 .computer1:hover {
     cursor: pointer;
-    transform: scale(1.13, 1.13);
-
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .computer1 h3 {
     margin: 30px 0 10px 0;
+    padding-left: 10px;
+
 }
 
 .computer1 p {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 15px;
+    padding-left: 10px;
+
 }
 
 .computer1 span {
@@ -255,6 +260,8 @@ li {
     color: #A80000;
     text-decoration: none;
     font-weight: 500;
+    padding-left: 10px;
+
 }
 
 .computer1 a:hover {
