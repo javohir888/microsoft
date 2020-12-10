@@ -113,6 +113,11 @@ li {
     color: whitesmoke;
     font-size: 14px;
     text-align: center;
+    transition: transform 2s;
+}
+
+.shop:hover i {
+    transform: translate(10px);
 }
 
 .shop a {
@@ -168,6 +173,11 @@ li {
     padding: 10px 20px;
     color: #111;
     border: none;
+    transition: transform 1s;
+}
+
+.butt-inside:hover i {
+    transform: translate(10px);
 }
 
 .butt-inside:hover {
@@ -176,6 +186,11 @@ li {
 
 .spn2 {
     margin-left: 20px;
+    transition: transform 1s;
+}
+
+.spn2:hover i {
+    transform: translate(6px);
 }
 
 .choose {
@@ -232,9 +247,13 @@ li {
 
 .computer1:hover {
     cursor: pointer;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+}
+
+.computer1:hover i {
+    transform: translate(6px);
 }
 
 .computer1 h3 {
